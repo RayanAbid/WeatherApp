@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "weatherapp",
-    "slug": "weatherapp",
+    "name": "Room Temprature",
+    "slug": "room_temprature",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,11 +22,16 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#F5F5F7"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-4253456160707581/4609115659"
+      },
+      "package": "com.rayanabid.room_temprature"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "a room temperature application that sets theme according to time of the day"
   }
 }
